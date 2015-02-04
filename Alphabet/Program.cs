@@ -31,7 +31,7 @@ namespace Alphabet
                 index++;
             }
 
-            System.IO.File.WriteAllLines("@"C:\Users\mrpep_000\Desktop\alphabet.txt"/alphabet.txt", 
+            System.IO.File.WriteAllLines("/alphabet.txt", 
                 equivs);
         }
     }
