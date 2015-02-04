@@ -31,8 +31,7 @@ namespace Alphabet
                 index++;
             }
 
-            System.IO.File.WriteAllLines("/alphabet.txt", 
-                equivs);
+            System.IO.File.WriteAllLines("/alphabet.txt", equivs);
         }
     }
 }
